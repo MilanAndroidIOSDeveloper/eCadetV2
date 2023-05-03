@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuidelinesActivity"
+    android:id="@+id/drawerLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/navigation_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guidelines"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="The tasks in this training record book have been carefully selected to ensure that the Cadets obtain effective practical experience in a variety of fields under different conditions and demonstrate a satisfactory level of achievement and ability in performing those tasks. There must be objective evidence (pictures, documents, narrative report, etc.), where required, of completion of tasks, and that all tasks be signed off as they are completed with the correct date entered.
+                    \n\nOn the TRB, the Tasks are marked and divided into three (3) Participation levels: Instructed (I), Guided (G) and Supervised (S). These Participation levels are described below: " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Instructed" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="Some of the tasks contained in this TRB are quite simple and can be done by independently by the candidate with only basic instruction from the STO. For example, one task might require you to list the location of the lifejackets on board. Such tasks require only simple instruction. " />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Guided" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="Guided tasks require guidance from an STO or certificated crew member who has good knowledge and expertise in the task that the Cadet is required to complete. These tasks require more attention and usually involve activities that may affect regular operations. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Supervised" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="Supervised tasks require supervision from an STO or certificated crew member who has good knowledge and expertise in the task that the Cadet is required to complete. These tasks require direct supervision and involve activities that will definitely affect regular operations of the vessel. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="Do not attempt any Supervised task unless instructed that it is safe to do so and that there is appropriate supervision. It is recognized that some tasks may not be performed during sea service onboard the vessel due to operational or safety concerns. In such cases, completion of tasks in a similar and controlled working environment is acceptable. Unperformed TRB tasks may be remediated as per the policies and procedures of the Cadet’s MHEI." />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/main_menu_deck"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        android:id="@+id/navigation_view">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

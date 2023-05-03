@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#115181</color>
+    <color name="colorAccent">#D4D6D6</color>
+    <color name="headermainbg">#66C9CF</color>
+    <color name="blue">#6395d6</color>
+    <color name="black">#000000</color>
+    <color name="red">#ed071a</color>
+    <color name="darkGray">#808182</color>
+    <color name="lightGray">#b0b1b3</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#55ab5f</color>
+    <color name="colorText">#07566b</color>
+    <color name="yellow">#e8eb60</color>
+    <color name="link">#012e75</color>
+    <color name="lightRed">#d15454</color>
+    <color name="tile1">#FFB200</color>
+    <color name="tile2">#6ECCAF</color>
+    <color name="tile3">#DC3535</color>
+    <color name="tile4">#4FA095</color>
+    <color name="tile5">#F57328</color>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elosoftbiz.etrb_trmf">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@drawable/ecadet"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ecadet"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ForAppTaskFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForApprovalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonProjectWorkFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonProjectWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonBasicTrainingFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonCeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonCrewListFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OTRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonSafeWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonEmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonInspectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonCrewListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonSafetyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".STRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonNarrativeActivity"
+            android:exported="false" />
+        <activity android:name=".PersonJournalFormActivity" />
+        <activity android:name=".PersonJournalActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CaptureActivity" />
+        <activity android:name=".SearchTaskActivity" />
+        <activity android:name=".BackupActivity" />
+        <activity android:name=".PortWatchesFormActivity" />
+        <activity android:name=".PortWatchesActivity" />
+        <activity android:name=".SteeringFormActivity" />
+        <activity android:name=".SteeringActivity" />
+        <activity android:name=".BridgeWatchkeepingFormActivity" />
+        <activity android:name=".BridgeWatchkeepingActivity" />
+        <activity android:name=".RecordWatchActivity" />
+        <activity android:name=".AbbrevActivity" />
+        <activity android:name=".ShipParticularFormActivity" />
+        <activity android:name=".ShipParticularActivity" />
+        <activity android:name=".InternationalRegActivity" />
+        <activity android:name=".MusterFormActivity" />
+        <activity android:name=".MusterActivity" />
+        <activity android:name=".ShipboardSafetyActivity" />
+        <activity android:name=".PersonMaterialFormActivity" />
+        <activity android:name=".PersonMaterialActivity" />
+        <activity android:name=".CompanyReviewActivity" />
+        <activity android:name=".MasterReviewActivity" />
+        <activity android:name=".StoReviewActivity" />
+        <activity android:name=".EducationalRecordFormActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.elosoftbiz.etrb_trmf.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChedMemoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".STCWProvisionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GuidelinesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CadetParticularActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TaskSummaryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EducationalRecordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OfficerAssignmentFormActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".OfficerAssignmentActivity" />
+        <activity
+            android:name=".ProfessionalTrainingFormActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".ProfessionalTrainingActivity" />
+        <activity
+            android:name=".SeaServiceFormActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".SeaServiceActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".TaskUpdateActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".PersonTaskActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".ListCompetenceActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".DownloadFromServerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".PersonUpdateActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+
+</manifest>

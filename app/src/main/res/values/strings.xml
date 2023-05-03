@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">e-CADET</string>
+    <string name="app_title">e-CADET : Electronic Training Record Book</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="select_date">SELECT A DATE</string>
+
+    <string name="url">https://e-cadet.com/trmf_ios/</string>
+    <string name="url2">https://e-cadet.com/trmf/</string>
+
+    <string name="international_reg"> /n
+        Parts A, B. C. D. and E
+        Annex I
+        Only an outline knowledge is required, but the provisions of Section 9a should be fulty understood.
+        Annexes Il and Ill
+        A general knowledge is required.
+        Annex IV
+        A full and comprehensive knowledge of distress signals is required.
+        Note: A thorough knowledge is required of the rules shaded in blue.</string>
+
+
+    <string name="policy">By clicking the capture button, you hereby agree to register your facial features to be used as a login authentication once this app was licensed and validated. Personal data is kept and handed securely in various format either in hard and/or soft copies including databases that are shared within the TRMF.</string>
+    <string name="server">V-Ship Server</string>
+
+    <string name="sto_review_deck">Comments pertain strictly to the Cadet\'s progress in training and attainment of competence and not to anything related to his or her character.</string>
+    <string name="sto_review_engine">The following should be completed within the period of time as may be allowed by the trading of the vessel. Comments to be entered should pertain strictly to the Cadet\'s progress in training and attainment of competence and not to anything related to his or her character.</string>
+
+    <string name="company_review_deck">Comments pertain strictly to the Cadet\'s progress in training and attainment of competence and not to anything related to his or her character.</string>
+    <string name="company_review_engine">Comments pertain strictly to the practical progress in training and attainment of competence by the Assistant Engineer Officer and not to anything related to his or her character.</string>
+
+    <string name="master_review_deck">Comments pertain strictly to the Cadet\'s progress in training and attainment of competence and not to anything related to his or her character.</string>
+    <string name="master_review_engine">The following should be completed within the period of time as may be allowed by the operation of the vessel. Comments to be entered should pertain strictly to the Cadet\'s progress in training and attainment of competence and not to anything related to his or her character.</string>
+
+    <string name="safety_deck">In accordance with STCW 2010 Section A-VI/1 and Section A-VI/6, before being assigned to shipboard duties, seafarers must received safety and security familiarization in accordance with the shipboard manual.</string>
+    <string name="safety_engine">In accordance with STCW 2010 Section A-I/14, Section A-VI/1 and Section  A-VI/6, before being assigned to shipboard duties, seafarers must received safety and security familiarization in accordance with the shipboard manual.</string>
+
+    <string name="task_summary">The following charts provide you, your company and your officers with real-time review of your progress as far as the number of tasks you have completed as well as the number of tasks that remain to be accomplished.</string>
+
+    <string name="colreg_title">Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)</string>
+
+    <string name="rule35"><html><body><p align="justify">
+        In or near an area of restricted visibility, whether by day or night, the signals prescribed in this Rule shall be used as follows:<br />
+        (a) A power-driven vessel making way through the water shall sound at intervals of not more than 2 minutes one prolonged blast.<br />
+        (b) A power-driven vessel underway but stopped and making no way through the water shall sound at intervals of not more than 2 minutes two prolonged blasts in succession with an interval of about 2 seconds between them.<br />
+        (c) A vessel not under command, a vessel restricted in her ability to manoeuvre, a vessel constrained by her draught, a sailing vessel, a vessel engaged in fishing and a vessel engaged in towing or pushing another vessel shall, instead of the signals prescribed in paragraphs (a) or (b) of this Rule, sound at intervals of not more than 2 minutes three blasts in succession, namely one prolonged followed by two short blasts.<br />
+        (d) A vessel engaged in fishing, when at anchor, and a vessel restricted in her ability to manoeuvre when carrying out her work at anchor, shall instead of the signals prescribed in paragraph (g) of this Rule sound the signal prescribed in paragraph (c) of this Rule.<br />
+        (e) A vessel towed or if more than one vessel is towed the last vessel of the tow, if manned, shall at intervals of not more than 2 minutes sound four blasts in succession, namely one prolonged followed by three short blasts. When practicable, this signal shall be made immediately after the signal made by the towing vessel.<br />
+        (f) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and shall give the signals prescribed in paragraphs (a) or (b) or this Rule.<br />
+        (g) A vessel at anchor shall at intervals of not more than one minute ring the bell rapidly for about 5 seconds. In a vessel of 100 m of more in length the bell shall be sounded in the forepart of the vessel and immediately after the ringing of the bell the gong shall be sounded rapidly for about 5 seconds in the after part of the vessel. A vessel at anchor may in addition sound three blasts in a succession, namely one short, one prolonged and one short blast, to give warning of her position and of the possibility of collision to an approaching vessel.<br />
+        (h) A vessel aground shall give the bell signal and if required the gong signal prescribed in paragraph (g) of this Rule and shall, in addition, give three separate and distinct strokes on the bell immediately before and after the rapid ringing of the bell. A vessel aground may in addition sound an appropriate whistle signal.<br />
+        (i) A vessel of 12 m or more but less than 20 m in length shall not be obliged to give the bell signals prescribed in paragraphs (g) and (h) of this Rule. However, if she does not, she shall make some other efficient sound signal at intervals of not more than 2 minutes.<br />
+        (j) A vessel of less than 12 m in length shall not be obliged to give the above-mentioned signals but, if she does not, shall make some other efficient sound signal at intervals of not more than 2 minutes.<br />
+        (k) A pilot vessel when engaged on pilotage duty may in addition to the signals prescribed in paragraphs (a), (b) or (g) of this Rule sound an identity signal consisting of four short blasts.
+    </p></body></html></string>
+
+    <string name="probleConn">Unreachable site, please reload or try again later.</string>
+    <string name="lossConn">Loss connection to the server, please try again later.</string>
+    <string name="notLicensed">Your app is not yet activated. Please download your data to use the e-cadet\'s full features.</string>
+    <string name="nav_person_inspect">Monthly Inspection of the TRB\nby Master</string>
+    <string name="nav_person_ce">Monthly Inspection of the TRB\nby Chief Engineer</string>
+</resources>

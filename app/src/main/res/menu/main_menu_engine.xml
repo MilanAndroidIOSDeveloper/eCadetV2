@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+    </group>
+
+    <group android:id="@+id/menu_other_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_stcw"
+            android:title="Definition of Terms"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_otr"
+            android:title="Onboard Training Requirements"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_guidelines"
+            android:title="Guidelines"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_cadet"
+            android:title="Cadet's Particular"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_sea_service"
+            android:title="Sea Service Records"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_ship_particular"
+            android:title="Ship's Particulars"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_crew_list"
+            android:title="Crew List Records"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_person_ce"
+            android:title="Chief Engineer's Monthly Inspection of the TRB"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_person_to"
+            android:title="OTS's Monthly Inspection of the TRB"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_person_basic_training"
+            android:title="List of Training Records"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_person_safety"
+            android:title="Record of Cadet's Onboard Familiarization"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_person_emergancy"
+            android:title="Record of Emergency Preparedness Familiarization"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_person_work"
+            android:title="Safe Working Practices"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_task_summary"
+            android:title="Tasks Summary Record"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_tasks"
+            android:title="Onboard Training Task and Practices"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_person_journal_engine"
+            android:title="Daily Journal of Engine-Room Duties"
+            android:icon="@drawable/ic_list_black_24dp"/>
+        <item
+            android:id="@+id/nav_person_project_work"
+            android:title="Project Works"
+            android:icon="@drawable/ic_list_black_24dp"/>
+    </group>
+    <item
+        android:id="@+id/nav_officer_assign"
+        android:title="Responsible Officers"
+        android:icon="@drawable/ic_person_black_24dp" />
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search Task"
+        android:icon="@drawable/ic_search_black_24dp" />
+    <item
+        android:id="@+id/nav_sync"
+        android:title="Backup / Restore"
+        android:icon="@drawable/ic_sync_black_24dp" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:title="About eTRB"
+        android:icon="@drawable/ic_info_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_reset"
+        android:title="Reset"
+        android:icon="@drawable/ic_warning_black_24dp"/>
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Sign Out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+</menu>
