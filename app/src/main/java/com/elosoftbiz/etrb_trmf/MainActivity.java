@@ -49,8 +49,10 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolbar;
+
     NavigationView navigationView;
     Context context;
+
     DatabaseHelper db;
     ProgressDialog pd;
     NetworkChangeReceiver receiver;
